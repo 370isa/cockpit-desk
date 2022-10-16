@@ -41,7 +41,7 @@ class FormLogin extends Component {
                     <label className="form__label form__label--login">Senha</label>
 
                     <input className="form__input form__input--login" type="password" name="userpassword" placeholder="Sua senha" required />
-                    <a className="form__link form__link--login" href="#">Esqueceu sua senha?</a>
+                    <a className="form__link form__link--login" href="#Teste">Esqueceu sua senha?</a>
                 </div>
 
                 <div className="form__container form__container--login">
