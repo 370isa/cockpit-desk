@@ -34,25 +34,26 @@
 }
 
 .dashboard-logo {
-    height: 60px;
+    height: 90px;
     margin-top: 30px;
 }
 
 .dashboard-salute {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 26px;
     font-weight: 700;
+    width: 100%;
 }
 
 .dashboard-text {
     margin-top: 15px;
-    line-height: 24px;
+    line-height: 20px;
 }
 
 .dashboard-scroll {
     background-color: rgba(208, 237, 237, .5);
     margin-bottom: 30px;
-    height: calc(100% - 273px);
+    height: calc(100% - 291px);
     width: 300px;
     overflow: hidden;
 }
