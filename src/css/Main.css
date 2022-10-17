@@ -40,13 +40,16 @@
     position: relative;
 }
 
-.main__nav--img {
+.main__nav--img,
+.main__nav--img-logout {
     height: 100%;
     width: 100%;
     z-index: 9;
 }
 
-.main__nav--item.selected .main__nav--link:after {
+.main__nav--item.selected .main__nav--link::after,
+.main__nav--item:hover .main__nav--link::after,
+.main__nav--item-logout:hover .main__nav--link::after {
     content: "";
     background: rgba(25, 167, 176, .5);
     border-radius: 100%;
