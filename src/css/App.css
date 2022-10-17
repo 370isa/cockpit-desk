@@ -1,35 +1,28 @@
-*:focus-visible {
-    border: none;
-    outline: none;
-}
-
-.App {
+.app {
     background-color: #006972;
     position: fixed;
     height: 100%;
     width: 100%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.App-body {
+.app-body {
     height: auto;
     max-width: 400px;
     margin: auto 30px;
-
     color: #FFFFFF;
 }
 
-.App-logo {
+.app-logo {
     pointer-events: none;
     margin-bottom: 60px;
     width: 100%;
 }
 
-.App-formlogin {
+.app-formlogin {
     text-align: left;
     width: 100%;
 }

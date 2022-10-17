@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from 'react-dom/client';
-import Teste from './Teste';
-import './Forms.css';
+import Dashboard from '../pages/Dashboard';
+import '../css/Forms.css';
 
 class FormLogin extends Component {
     loginSubmit = (e) => {
@@ -20,7 +20,7 @@ class FormLogin extends Component {
             const root = ReactDOM.createRoot(document.getElementById('root'));
             root.render(
                 <React.StrictMode>
-                    <Teste />
+                    <Dashboard />
                 </React.StrictMode>
             );
         } else {

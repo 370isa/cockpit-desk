@@ -1,0 +1,43 @@
+.dashboard-scroll__list {
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 10px 0 15px;
+    height: 100%;
+}
+
+.dashboard-scroll__list--item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 10px;
+    border-bottom: 1px solid #006972;
+}
+
+.dashboard-scroll__list--item:last-child {
+    border-bottom: none;
+}
+
+.item {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.item__classification {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.item__classification.high {
+    color: #EC6E6E;
+}
+
+.item__classification.medium {
+    color: #ECBA6E;
+}
+
+.item__classification.low {
+    color: #19A7B0;
+}
