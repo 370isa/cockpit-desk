@@ -2,11 +2,15 @@ import React, { Component } from "react";
 import '../css/MessageList.css';
 
 class MessageList extends Component {
+    openChat = () => {
+        console.log(document)
+    }
+
     render() {
         return (
             <div className="dashboard-scroll__list">
                 <div className="dashboard-scroll__list--item">
-                    <p className="item">
+                    <p className="item" onClick={ this.openChat }>
                         <b>Origem:</b> <span className="item__origin">Whatsapp</span><br />
                         <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
                         <b>Classificação:</b> <span className="item__classification high">alto</span><br />
@@ -14,7 +18,7 @@ class MessageList extends Component {
                 </div>
 
                 <div className="dashboard-scroll__list--item">
-                    <p className="item">
+                    <p className="item" onClick={ this.openChat }>
                         <b>Origem:</b> <span className="item__origin">Email</span><br />
                         <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
                         <b>Classificação:</b> <span className="item__classification medium">médio</span><br />
@@ -22,7 +26,7 @@ class MessageList extends Component {
                 </div>
 
                 <div className="dashboard-scroll__list--item">
-                    <p className="item">
+                    <p className="item" onClick={ this.openChat }>
                         <b>Origem:</b> <span className="item__origin">Site</span><br />
                         <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
                         <b>Classificação:</b> <span className="item__classification low">baixo</span><br />
@@ -30,7 +34,7 @@ class MessageList extends Component {
                 </div>
 
                 <div className="dashboard-scroll__list--item">
-                    <p className="item">
+                    <p className="item" onClick={ this.openChat }>
                         <b>Origem:</b> <span className="item__origin">Email</span><br />
                         <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
                         <b>Classificação:</b> <span className="item__classification high">alto</span><br />
@@ -38,7 +42,7 @@ class MessageList extends Component {
                 </div>
 
                 <div className="dashboard-scroll__list--item">
-                    <p className="item">
+                    <p className="item" onClick={ this.openChat }>
                         <b>Origem:</b> <span className="item__origin">Site</span><br />
                         <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
                         <b>Classificação:</b> <span className="item__classification medium">médio</span><br />
@@ -46,7 +50,7 @@ class MessageList extends Component {
                 </div>
 
                 <div className="dashboard-scroll__list--item">
-                    <p className="item">
+                    <p className="item" onClick={ this.openChat }>
                         <b>Origem:</b> <span className="item__origin">Whatsapp</span><br />
                         <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
                         <b>Classificação:</b> <span className="item__classification low">baixo</span><br />
@@ -54,7 +58,7 @@ class MessageList extends Component {
                 </div>
 
                 <div className="dashboard-scroll__list--item">
-                    <p className="item">
+                    <p className="item" onClick={ this.openChat }>
                         <b>Origem:</b> <span className="item__origin">Site</span><br />
                         <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
                         <b>Classificação:</b> <span className="item__classification high">alto</span><br />
@@ -62,7 +66,7 @@ class MessageList extends Component {
                 </div>
 
                 <div className="dashboard-scroll__list--item">
-                    <p className="item">
+                    <p className="item" onClick={ this.openChat }>
                         <b>Origem:</b> <span className="item__origin">Whatsapp</span><br />
                         <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
                         <b>Classificação:</b> <span className="item__classification medium">médio</span><br />
@@ -70,7 +74,7 @@ class MessageList extends Component {
                 </div>
 
                 <div className="dashboard-scroll__list--item">
-                    <p className="item">
+                    <p className="item" onClick={ this.openChat }>
                         <b>Origem:</b> <span className="item__origin">Email</span><br />
                         <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
                         <b>Classificação:</b> <span className="item__classification low">baixo</span><br />
@@ -78,7 +82,7 @@ class MessageList extends Component {
                 </div>
 
                 <div className="dashboard-scroll__list--item">
-                    <p className="item">
+                    <p className="item" onClick={ this.openChat }>
                         <b>Origem:</b> <span className="item__origin">Whatsapp</span><br />
                         <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
                         <b>Classificação:</b> <span className="item__classification high">alto</span><br />
@@ -86,7 +90,7 @@ class MessageList extends Component {
                 </div>
 
                 <div className="dashboard-scroll__list--item">
-                    <p className="item">
+                    <p className="item" onClick={ this.openChat }>
                         <b>Origem:</b> <span className="item__origin">Email</span><br />
                         <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
                         <b>Classificação:</b> <span className="item__classification medium">médio</span><br />
@@ -94,7 +98,7 @@ class MessageList extends Component {
                 </div>
 
                 <div className="dashboard-scroll__list--item">
-                    <p className="item">
+                    <p className="item" onClick={ this.openChat }>
                         <b>Origem:</b> <span className="item__origin">Site</span><br />
                         <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
                         <b>Classificação:</b> <span className="item__classification low">baixo</span><br />
@@ -102,7 +106,7 @@ class MessageList extends Component {
                 </div>
 
                 <div className="dashboard-scroll__list--item">
-                    <p className="item">
+                    <p className="item" onClick={ this.openChat }>
                         <b>Origem:</b> <span className="item__origin">Email</span><br />
                         <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
                         <b>Classificação:</b> <span className="item__classification high">alto</span><br />
@@ -110,7 +114,7 @@ class MessageList extends Component {
                 </div>
 
                 <div className="dashboard-scroll__list--item">
-                    <p className="item">
+                    <p className="item" onClick={ this.openChat }>
                         <b>Origem:</b> <span className="item__origin">Site</span><br />
                         <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
                         <b>Classificação:</b> <span className="item__classification medium">médio</span><br />
@@ -118,7 +122,7 @@ class MessageList extends Component {
                 </div>
 
                 <div className="dashboard-scroll__list--item">
-                    <p className="item">
+                    <p className="item" onClick={ this.openChat }>
                         <b>Origem:</b> <span className="item__origin">Whatsapp</span><br />
                         <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
                         <b>Classificação:</b> <span className="item__classification low">baixo</span><br />
@@ -126,7 +130,7 @@ class MessageList extends Component {
                 </div>
 
                 <div className="dashboard-scroll__list--item">
-                    <p className="item">
+                    <p className="item" onClick={ this.openChat }>
                         <b>Origem:</b> <span className="item__origin">Site</span><br />
                         <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
                         <b>Classificação:</b> <span className="item__classification high">alto</span><br />
@@ -134,7 +138,15 @@ class MessageList extends Component {
                 </div>
 
                 <div className="dashboard-scroll__list--item">
-                    <p className="item">
+                    <p className="item" onClick={ this.openChat }>
+                        <b>Origem:</b> <span className="item__origin">Site</span><br />
+                        <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
+                        <b>Classificação:</b> <span className="item__classification high">alto</span><br />
+                    </p>
+                </div>
+
+                <div className="dashboard-scroll__list--item">
+                    <p className="item" onClick={ this.openChat }>
                         <b>Origem:</b> <span className="item__origin">Whatsapp</span><br />
                         <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
                         <b>Classificação:</b> <span className="item__classification medium">médio</span><br />
@@ -142,7 +154,15 @@ class MessageList extends Component {
                 </div>
 
                 <div className="dashboard-scroll__list--item">
-                    <p className="item">
+                    <p className="item" onClick={ this.openChat }>
+                        <b>Origem:</b> <span className="item__origin">Email</span><br />
+                        <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
+                        <b>Classificação:</b> <span className="item__classification low">baixo</span><br />
+                    </p>
+                </div>
+
+                <div className="dashboard-scroll__list--item">
+                    <p className="item" onClick={ this.openChat }>
                         <b>Origem:</b> <span className="item__origin">Email</span><br />
                         <b>Cliente:</b> <span className="item__customer">customer@customer.com.br</span><br />
                         <b>Classificação:</b> <span className="item__classification low">baixo</span><br />
