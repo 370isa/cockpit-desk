@@ -48,7 +48,7 @@ class Nav extends Component {
 
                 <nav className="main__nav">
                     <div className="main__nav--item-logout">
-                        <a className="main__nav--link" href="#6">
+                        <a className="main__nav--link" href="/">
                             <img className="main__nav--img-logout" src={ logout } alt="Logout" />
                         </a>
                     </div>

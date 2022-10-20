@@ -8,23 +8,23 @@ class FormLogin extends Component {
         e.preventDefault();
 
         if (!e.target.username.value) {
-        alert("Email is required");
+            alert("Email is required");
         } else if (!e.target.username.value) {
-        alert("Valid email is required");
+            alert("Valid email is required");
         } else if (!e.target.userpassword.value) {
-        alert("Password is required");
+            alert("Password is required");
         } else if (
-        e.target.username.value === "user@cockpit.com" &&
-        e.target.userpassword.value === "123456"
+            e.target.username.value === "user@cockpit.com" &&
+            e.target.userpassword.value === "123456"
         ) {
-        const root = ReactDOM.createRoot(document.getElementById("root"));
-        root.render(
-            <React.StrictMode>
-            <Dashboard />
-            </React.StrictMode>
-        );
+            const root = ReactDOM.createRoot(document.getElementById("root"));
+            root.render(
+                <React.StrictMode>
+                    <Dashboard />
+                </React.StrictMode>
+            );
         } else {
-        alert("Wrong email or password combination");
+            alert("Wrong email or password combination");
         }
     };
 
