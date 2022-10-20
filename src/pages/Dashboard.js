@@ -1,5 +1,6 @@
 import logo from "../images/logo2.svg";
 import close_icon from "../images/close-icon.svg";
+import send_icon from "../images/send-icon.svg";
 import Main from "../components/Main";
 import MessageList from "../components/MessageList";
 import SimpleChart from "../components/SimpleChart";
@@ -37,7 +38,13 @@ function Dashboard() {
                     <div className="dashboard-chat">
                         <img className="close-icon" src={ close_icon } alt="Fecha Chat" onClick={ closeChat }/>
 
-                        <div className="chat-content">
+                        <div className="chat-container">
+                            <form className="form--chat">
+                                <input className="form__input form__input--chat" type="text" name="chat-messages" placeholder="Envie sua mensagem aqui..." required />
+                                <button className="form__button form__button--chat">
+                                    <img className="form__form__button--chat-img" src={ send_icon } alt="Enviar Mensagem" />
+                                </button>
+                            </form>
                         </div>
                     </div>
                 </div>
